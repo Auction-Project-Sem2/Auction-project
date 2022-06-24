@@ -25,25 +25,51 @@
 <body>
 <!--Header begin-->
 <div id="header">
-    <div id="logo">
-        <a href="index.html">
-            <img id="logo-img" src="img/Logo.png" alt="Logo">
-            <h1>Auction</h1>
-        </a>
+    <div id="header-left">
+        <div id="logo">
+            <a href="index.html">
+                <img id="logo-img" src="img/Logo.png" alt="Logo">
+                <h1>Auction</h1>
+            </a>
+        </div>
     </div>
     <div id="header-right">
         <div id="search-header">
-            <button id="button-search"><i class="fa-solid fa-magnifying-glass"></i></button>
-            <input id="search" type="text" placeholder="Search product, category...">
+            <div id="search-container">
+                <div id="icon-search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <form action="">
+                    <input id="search" type="text" placeholder="Search product, category...">
+                </form>
+            </div>
         </div>
         <div id="menu-header">
             <ul>
                 <li><a href="">Product</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Ranking</a></li>
                 <li><a href="">Help center</a></li>
+                <li id="more-li">More<i id="down-icon-more" class="fa-solid fa-caret-down"></i>
+                    <div id="nav-more">
+                        <ul>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li id="last-more-li">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
+            <div id="icon-list-header">
+                <ul>
+                    <li><i class="fa-solid fa-bell"></i></li>
+                    <li><i class="fa-solid fa-circle-user"></i></li>
+                    <li><a href="sell.html"><i class="fa-solid fa-gavel"></i></a></li>
+                    <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
