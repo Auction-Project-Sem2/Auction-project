@@ -1,3 +1,11 @@
+/*
+Column : .col
+Prefix class :
+    - c - mobile
+    - m - tablet
+    - l - PC
+*/
+
 .grid {
     width: 100%;
     display: block;
