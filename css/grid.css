@@ -154,9 +154,19 @@ Prefix class :
         margin-right: -8px;
     }
 
+    .wide .row.sm-gutter {
+        margin-left: -4px;
+        margin-right: -4px;
+    }
+
     .col {
         padding-left: 8px;
         padding-right: 8px;
+    }
+
+    .row.sm-gutter .col {
+        padding-left: 4px;
+        padding-right: 4px;
     }
 
     .m-0 {
@@ -298,7 +308,7 @@ Prefix class :
     .col {
         padding-left: 12px;
         padding-right: 12px;
-    }
+    } 
 
     .row.sm-gutter .col {
         padding-left: 5px;
@@ -340,6 +350,11 @@ Prefix class :
         max-width: 20%;
     }
 
+    .l-2-5 {
+        flex: 0 0 22.5%;
+        max-width: 22.5%;
+    }
+
     .l-3 {
         flex: 0 0 25%;
         max-width: 25%;
@@ -363,6 +378,11 @@ Prefix class :
     .l-7 {
         flex: 0 0 58.33333%;
         max-width: 58.33333%;
+    }
+
+    .l-9-5 {
+        flex: 0 0 77.5%;
+        max-width: 77.5%;
     }
 
     .l-8 {
